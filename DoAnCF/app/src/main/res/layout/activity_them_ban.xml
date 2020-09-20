@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toan.ThemBanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/ThemBan_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:tabBackground="@android:color/white"
+            app:tabTextColor="@android:color/black"
+            app:tabIndicatorColor="@color/cardview_shadow_start_color"
+            android:layout_gravity="center|top">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tầng trệt"
+                />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tầng 1"
+                />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/ThemBan_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+
+        <LinearLayout
+            android:id="@+id/linner1"
+            android:layout_below="@+id/ThemBan_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_weight="10">
+            <EditText
+                android:id="@+id/ThemBan_edtText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Tên bàn"
+                android:textSize="20sp"
+                android:layout_weight="6"/>
+
+            <Button
+                android:id="@+id/ThemBan_btnThem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="Thêm"
+                android:background="@drawable/border_btn"
+                android:layout_weight="4"
+                />
+        </LinearLayout>
+
+        <GridView
+            android:layout_below="@id/linner1"
+            android:id="@+id/gridViewTableNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:columnWidth="250dp"
+            android:horizontalSpacing="20dp"
+            android:numColumns="2"
+            android:verticalSpacing="10dp"></GridView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

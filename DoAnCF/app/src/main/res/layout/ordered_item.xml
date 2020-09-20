@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_soDo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvSoBan"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="Bàn 1"
+                android:textSize="50sp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                />
+
+            <TextView
+                android:id="@+id/tvSoNguoi"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:text="Số người:"
+                android:textColor="@android:color/white"
+                android:textSize="50sp" />
+        </RelativeLayout>
+    </TableRow>
+    <TableRow>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvSoBan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số bàn"
+                android:textSize="50sp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvSoTien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giá tiền của bàn"
+                    android:textSize="70dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvThoiGian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="50dp"
+                        android:text="Thời gian: 10'"
+                        android:layout_alignParentLeft="true"/>
+                    <TextView
+                        android:id="@+id/tvIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Icon"
+                        android:textSize="50dp"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/icon_ThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                android:text=""
+                android:textSize="40dp"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/icon_ThemOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_local_cafe_black_24dp"
+                android:text=""
+                android:textSize="40dp"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_blue_dark"/>
+
+            <TextView
+                android:id="@+id/icon_XemOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_playlist_add_check_black_24dp"
+                android:text=""
+                android:textSize="40dp"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_green_dark"/>
+
+            <TextView
+                android:id="@+id/icon_MoRong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_more_horiz_black_24dp"
+                android:text=""
+                android:textSize="40dp"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_orange_dark"/>
+
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

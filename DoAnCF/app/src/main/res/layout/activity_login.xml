@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="toan.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="@drawable/login2"
+        >
+
+
+        <TextView
+            android:id="@+id/furniture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:gravity="center_horizontal|top"
+            android:text="Coffe Store"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="55sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linepass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="4dp"
+            android:hint="UserName"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:background="@android:color/white"
+            android:textColorHint="@android:color/holo_red_light" />
+        <LinearLayout
+            android:id="@+id/linepass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/btnLogin"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText"
+                android:layout_centerHorizontal="true"
+
+                android:drawablePadding="4dp"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:padding="18dp"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:background="@android:color/white"
+                android:textColorHint="@android:color/holo_red_light" />
+
+            <ImageButton
+                android:id="@+id/imgbtnShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="-35dp"
+
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_visibility_black_24dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="30dp"
+            android:background="#E23C3C"
+            android:padding="18dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lstt_tvMaHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Mã hóa đơn"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/lstt_tvMaBan"-->
+<!--        android:layout_below="@+id/lstt_tvMaHD"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:text="Mã bàn"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/lstt_tvMaNV"-->
+<!--        android:layout_below="@+id/lstt_tvMaBan"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:text="Mã bàn"/>-->
+
+    <TextView
+        android:layout_below="@+id/lstt_tvNgayVao"
+        android:id="@+id/lstt_tvTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:text="Tổng tiền thanh toán"/>
+
+    <TextView
+        android:id="@+id/lstt_tvNgayVao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:text="Ngày vào"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/lstt_tvNgayRa"-->
+<!--        android:layout_below="@+id/lstt_tvNgayVao"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:text="Ngày ra"/>-->
+
+
+</RelativeLayout>

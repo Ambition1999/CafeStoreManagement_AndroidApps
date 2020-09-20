@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toan.ChiTietHoaDonActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Chi tiết hóa đơn"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_below="@+id/text"
+        android:id="@+id/cthd_tvMaHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Mã hóa đơn"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvMaHD"
+        android:id="@+id/cthd_tvBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Bàn:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvMaHD"
+        android:id="@+id/cthd_tvKhuVuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Khu vực: "
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvBan"
+        android:id="@+id/cthd_tvTenNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Nhân viên lập: "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvTenNV"
+        android:id="@+id/cthd_tvTGVao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Thời gian vào: "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvTGVao"
+        android:id="@+id/cthd_tvTGRa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Thời gian ra: "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@+id/cthd_tvTGRa"
+        android:id="@+id/cthd_tvTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Tổng tiền: "
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

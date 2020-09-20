@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e380f"
+    android:orientation="vertical"
+    tools:context=".toan.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-50dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/brand_main" />
+
+    <TextView
+        android:layout_above="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Coffee Store"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_above="@+id/address"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại: 0923456789"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: 140 Lê Trọng Tấn, P.Sơn Kỳ, TP Hồ Chí Minh"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

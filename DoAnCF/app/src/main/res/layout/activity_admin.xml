@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toan.AdminActivity"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_themMonAn"
+        android:layout_gravity="fill"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="20dp"
+        android:text="Danh mục món ăn"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_playlist_add_black_24dp"
+        android:background="@drawable/border_btn2"/>
+
+    <Button
+        android:layout_below="@+id/btn_themMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/main_btn_themBan"
+        android:layout_gravity="fill"
+        android:layout_margin="30dp"
+        android:paddingLeft="20dp"
+        android:text="Danh mục bàn"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_playlist_add_black_24dp"
+        android:background="@drawable/border_btn2"/>
+
+    <Button
+        android:layout_below="@+id/main_btn_themBan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btn_LSThanhToan"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="20dp"
+        android:text="Lịch sử thanh toán"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_history_black_24dp"
+        android:background="@drawable/border_btn2"/>
+
+    <Button
+        android:layout_below="@+id/btn_LSThanhToan"
+        android:id="@+id/btn_DangXuat"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_gravity="fill"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_btn2"
+        android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"
+        android:paddingLeft="20dp"
+        android:text="Đăng xuất"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

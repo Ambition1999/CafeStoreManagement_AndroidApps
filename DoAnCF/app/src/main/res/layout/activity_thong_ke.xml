@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toan.ThongKeActivity">
+
+    <Button
+        android:layout_below="@+id/tvDoanhThu"
+        android:id="@+id/thongke_btnBarChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        android:text="Xem thống kê 5 ngày gần đây" />
+
+    <TextView
+        android:id="@+id/tvDoanhThu"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Doanh thu hôm nay: "/>
+
+    <TextView
+        android:id="@+id/tvTien"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginRight="5dp"
+        android:text=" Tiền "/>
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_below="@id/thongke_btnBarChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_below="@+id/calendar"
+        android:id="@+id/tvDoanhThuCalendar"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:text="D.thu hôm nay: "/>
+
+    <TextView
+        android:layout_below="@+id/calendar"
+        android:id="@+id/tvTienCalendar"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginRight="5dp"
+        android:text=" Tiền "/>
+
+</RelativeLayout>

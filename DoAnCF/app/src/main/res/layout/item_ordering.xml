@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight=".15"
+        android:layout_height="50dp"
+        android:id="@+id/gioHang_Giam"
+        android:background="#f0ffff"
+        android:text="-"></Button>
+<!--    <Button-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:layout_weight=".10"-->
+<!--        android:id="@+id/gioHang_slDat"-->
+<!--        ></Button>-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".10"
+        android:background="#f0ffff"
+        android:id="@+id/gioHang_slDat"
+        android:gravity="center"
+        android:text="len"
+        ></TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".40"
+        android:id="@+id/gioHang_TenHang"
+        android:text="len"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".20"
+        android:id="@+id/gioHang_GiaSP"
+        android:text="len"
+        android:gravity="center"
+        ></TextView>
+
+<!--    <TextView-->
+
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_weight=".15"-->
+<!--        android:text="+"-->
+<!--        android:id="@+id/gioHang_Tang"-->
+<!--       ></TextView>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gioHang_Tang"
+        android:text="+"
+        android:gravity="center"
+        android:focusable="false"
+        android:background="#f0ffff"
+        ></Button>
+</LinearLayout>

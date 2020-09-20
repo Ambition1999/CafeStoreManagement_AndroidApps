@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toan.ThemMonActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/ThemMon_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:tabBackground="@android:color/holo_orange_dark"
+        app:tabTextColor="@android:color/white"
+        app:tabIndicatorColor="@color/cardview_shadow_start_color"
+        android:layout_gravity="center|top">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phổ biến"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafe"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nước ngọt"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nước ép"
+            />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_fragment_ThemMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+    <ImageButton
+        android:id="@+id/btnThemMon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:background="@drawable/btn_background"
+        android:layout_gravity="right|bottom"/>
+
+</FrameLayout>
